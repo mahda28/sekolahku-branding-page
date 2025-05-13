@@ -5,6 +5,7 @@ import HeroSection from '@/components/HeroSection';
 import ProfileSection from '@/components/ProfileSection';
 import VisionMissionSection from '@/components/VisionMissionSection';
 import StatsSection from '@/components/StatsSection';
+import GallerySection from '@/components/GallerySection';
 import Footer from '@/components/Footer';
 
 const Index = () => {
@@ -37,6 +38,7 @@ const Index = () => {
       <ProfileSection />
       <VisionMissionSection />
       <StatsSection />
+      <GallerySection />
       <Footer />
     </div>
   );
